@@ -1,100 +1,169 @@
 /* цвет основного текста #2E2F42 */
 
-
 /* вторичный цвет текста #434455 */
-
 
 /* белый #FFFFFF */
 
-
-/* акцент #4D5AE5 */ 
-
+/* акцент #4D5AE5 */
 
 /* акцент №2 #F4F4FD */
 
+/* ///////////////////////////// */
 :root {
-
-    --primary-text-color:#434455;
-    --title-text-color: #2E2F42;
-    --accent-text-color:#4D5AE5;
-    --white-text-color: #FFFFFF;
-    --primary-bg-color:#E5E5E5;
-    }
-    
-    .page {
-        background: var(--primary-bg-color);
-        color: var(--primary-text-color);
-    }
-    
-    h2,h3 {
-        color: var(--title-text-color);
-    }
-    
-    .list{ 
-        list-style: none 
-    }
-    
-    /* Logo */
-    .logo {
-        color: var(--accent-text-color);
-    }
-    
-    
-    /* Site Nav */
-    .site-nav .link {
-     color: var(--title-text-color);
-    }
-     .site-nav .link:hover,
-     .site-nav .link:focus{
-        color: var(--accent-text-color);
-     }
-     
-    .site-nav .link.current {
-        color: var(--title-text-color);
-    }
-    
-    
-    /* Hero */
-    .hero-title{
-        color: var(--white-text-color);
-    }
-    
-    
-    /* Section */
-    .section-title{
-        color:var(--title-text-color) ;
-    }
-    
-    /* Features */
-    
-    .feature-list .title {
-    
-    }
-    
-    /* Button */
-    
-    .button.primary{
-        color: var(--white-text-color);
-        background-color: var(--accent-text-color);
-    }
-    
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-text-color: #4d5ae5;
+  --white-text-color: #ffffff;
+  --primary-bg-color: #e5e5e5;
+  --footer-text-color:  #F4F4FD;
+}
 
 .page {
-    background: var(--primary-bg-color);
+  background: var(--primary-bg-color);
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+}
+
+h2,
+h3 {
+  color: var(--title-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Logo */
+.logo {
+  color: var(--accent-text-color);
+
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+/* Site Nav */
+.site-nav .link {
+  color: var(--title-text-color);
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+
+.site-nav .link.current {
+  color: var(--title-text-color);
+}
+
+/* Auth Nav */
+.auth-nav .auth-link {
+  color: var(--primary-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Hero */
+.hero-title {
+  color: var(--white-text-color);
+
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+/* Features */
+.feature-list .title {
+  color: var(--title-text-color);
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.feature-list .text {
+  color: var(--primary-text-color);
+  
+  
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* Button */
+.button {
+  color: var(--white-text-color);
+  background-color: var(--accent-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+button {
+  font-family: inherit;
+}
+
+
+/* Footer */
+.footer .text {
+color: var(--footer-text-color); 
+
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5px;
+letter-spacing: 0.02em;
+}
+
+
+.works {
+    background-color:var(--title-text-color);
+}
+
+/* Team */
+.team-list .title{
+ color: var(--title-text-color);
+
+
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+
+letter-spacing: 0.02em;
+}
+
+
+.team-list .text{
     color: var(--primary-text-color);
+  
+  
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-
-h2,h3 {
-    color: var(--title-text-color);
-}
-
-.list{ 
-    list-style: none 
-}
-
-
-
-
-
-
-
