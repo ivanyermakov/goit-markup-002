@@ -17,6 +17,7 @@
   --primary-bg-color: #e5e5e5;
   --footer-text-color:  #F4F4FD;
   --bcg-button-color:  #404BBF;
+  
 }
 
 .page {
@@ -24,6 +25,7 @@
   color: var(--primary-text-color);
 
   font-family: Roboto, sans-serif;
+  list-style: none
 }
 
 h2,
@@ -39,10 +41,12 @@ h3 {
 .logo {
   color: var(--accent-text-color);
 
+  
   font-family: Raleway, sans-serif;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  font-weight: 800
 }
 
 
@@ -77,10 +81,12 @@ h3 {
 .auth-nav .auth-link {
   color: var(--primary-text-color);
 
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal
 }
 
 
@@ -173,6 +179,7 @@ font-size: 16px;
 line-height: 1.5px;
 letter-spacing: 0.02em;
 }
+
 
 
 .works {
