@@ -27,6 +27,11 @@
   font-family: Roboto, sans-serif;
   text-decoration: none
   
+  
+}
+
+.link {
+  text-decoration:none;
 }
 
 h2,
@@ -79,7 +84,7 @@ h3 {
 
 
 /* Auth Nav */
-.auth-nav .auth-link {
+.auth-nav .auth {
   color: var(--primary-text-color);
 
 
