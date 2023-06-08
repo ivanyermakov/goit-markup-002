@@ -53,8 +53,8 @@ h3 {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  font-weight: 800
-  
+  font-weight: 800;
+  text-decoration: none
   
 }
 
@@ -63,6 +63,10 @@ h3 {
   color: var(--title-text-color);
 }
 
+
+.logo-span {
+  color: var(--white-text-color);
+}
 
 
 /* Site Nav */
@@ -135,6 +139,7 @@ h3 {
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 
@@ -167,6 +172,13 @@ h3 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer
+}
+
+
+button:hover,
+button:focus {
+  background-color: var(--bcg-button-color);
 }
 
 
@@ -200,8 +212,9 @@ color: var(--footer-text-color);
 
 font-weight: 400;
 font-size: 16px;
-line-height: 1.5px;
+line-height: 1.5;
 letter-spacing: 0.02em;
+
 }
 
 
@@ -212,7 +225,7 @@ letter-spacing: 0.02em;
 
 
 /* Team */
-.team-list .title{
+.team .title{
  color: var(--title-text-color);
 
 
@@ -224,7 +237,11 @@ letter-spacing: 0.02em;
 }
 
 
-.team-list .text{
+.section-ot {
+  background-color: var(--footer-text-color);
+}
+
+.team .text{
     color: var(--primary-text-color);
   
   
@@ -232,6 +249,13 @@ letter-spacing: 0.02em;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+
+.team {
+  background-color: var(--white-text-color);
+}
+
+
 
 
 /* all works */
