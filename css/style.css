@@ -121,6 +121,11 @@ h3 {
 }
 
 
+.section-hero  {
+  background-color: var(--title-text-color);
+}
+
+
 /* Section */
 .section-title {
   color: var(--title-text-color);
