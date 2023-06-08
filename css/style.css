@@ -21,7 +21,7 @@
 }
 
 .page {
-  background: var(--primary-bg-color);
+  background: var(--white-text-color);
   color: var(--primary-text-color);
 
   font-family: Roboto, sans-serif;
@@ -47,12 +47,15 @@ h3 {
 .logo {
   color: var(--accent-text-color);
 
-  
+
+  text-transform: uppercase;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   font-weight: 800
+  
+  
 }
 
 
