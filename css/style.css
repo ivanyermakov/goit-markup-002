@@ -144,6 +144,11 @@ h3 {
 }
 
 
+.section-ot {
+  background-color: var(--footer-text-color);
+}
+
+
 /* Features */
 .feature .title {
   color: var(--title-text-color);
@@ -206,6 +211,10 @@ letter-spacing: 0.04em;
   background-color: var(--bcg-button-color);
 }
 
+
+.filter-button {
+  cursor: pointer
+}
 /* Footer */
 .footer .text {
 color: var(--footer-text-color); 
