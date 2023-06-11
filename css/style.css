@@ -292,6 +292,10 @@ letter-spacing: 0.02em;
 }
 
 
+.all-works .title {
+  text-decoration: none
+}
+
 /* IMG */
 
 
