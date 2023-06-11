@@ -234,6 +234,9 @@ letter-spacing: 0.02em;
 }
 
 
+.footer span {
+ color: var(--footer-text-color);
+}
 /* Team */
 .team .title{
  color: var(--title-text-color);
